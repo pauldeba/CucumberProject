@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8744223100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Alchemy Page",
+            "match": {
+              "location": "stepDefinitions.AlchemySiteActivity.navigateAlchemy()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6290717900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login into Alchemy with \"root\" and \"pa$$w0rd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "root",
+                  "offset": 25
+                },
+                {
+                  "val": "pa$$w0rd",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.AlchemySiteActivity.loginAlchemy(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-13T06:58:07.299Z",
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "create-a-new-user;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2024226900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Locate the left hand menu and click on User",
+            "match": {
+              "location": "stepDefinitions.AlchemySiteActivity.clickUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4470014600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Locate the Add New button and click it",
+            "match": {
+              "location": "stepDefinitions.AlchemySiteActivity.clickAddNewButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4774762500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Fill deatils and click Add New User button",
+            "match": {
+              "location": "stepDefinitions.AlchemySiteActivity.fillDetails()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Alchemy_1"
+          }
+        ]
+      }
+    ],
+    "name": "Create a new user",
+    "description": "",
+    "id": "create-a-new-user",
+    "keyword": "Feature",
+    "uri": "file:Features/Project1_Alchemy.feature",
+    "tags": [
+      {
+        "name": "@Alchemy_1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
